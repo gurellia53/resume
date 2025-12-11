@@ -1,0 +1,58 @@
+
+
+
+
+
+
+of ⁨1⁩
+
+
+
+
+Andrew G. Gurik
+andrewgurik@gmail.com (309) 868-4405 Ames, IA
+Ag Leader Technology 2018 - present
+Staff Software Engineer 2023 - present
+● Lead a software engineering team to create the next generation of in-cab precision agriculture displays. Specifically, inventing a new 3D
+geospatial mapping engine and UI using Qt3D and OpenGL, as well as general application improvements in an embedded linux
+environment.
+Senior Software Engineer 2021 - 2023
+● Work on a Scrum team in a leadership role to design and maintain software for precision agriculture in-cab display and embedded
+modules connected on a CAN bus (J1939).
+● Created aftermarket precision nozzle-by-nozzle liquid application spraying system. This includes designing touch screen UI, CAN messaging
+protocol, embedded architecture, and PID control systems.
+● Leading a newly formed Scrum team in creating a next-generation precision agriculture product.
+Software Engineer 2018 - 2021
+● Work on a Scrum team to design and maintain software for precision agriculture in-cab display and embedded modules connected on a
+CAN bus (J1939 & ISOBUS).
+● Created an aftermarket precision high-speed planting system.
+● Maintained existing product lines for planter downforce, ISOBUS dry spreader, etc.
+Randstad Technologies 2017 - 2018
+Software Engineer – (Caterpillar) Core Machine Software
+● Continue the previous role with Caterpillar developing the new Virtual Platform ecosystem.
+● Create Simulink, python, C#, and C++ tools to enable engineers to interact with the Virtual Platform ecosystem.
+● Write high level tests for use across multiple applications within machine software.
+● Implement a Google Test infrastructure for application-layer automated testing.
+Caterpillar, Inc. 2013 - 2016
+Software Engineer
+Core Machine Software
+● Create simulation of transmission control software in a Windows environment for development, testing, and machine performance
+analysis.
+● Expand the scope of the simulation environment from transmission controls to the machine application layer.
+● Design architecture to generically support hundreds of top-layer applications across all Caterpillar product lines.
+● Create Simulink, python, C#, and C++ tools to enable engineers to interact with this simulation environment.
+● Create Google Test infrastructure for high-level automated testing.
+● Integrate a virtual CAN Bus into the simulation.
+Drivetrain Systems & Software - Large Mining Trucks, Quarry and Construction Trucks
+● Create features for embedded software controlling hydraulic clutches in automatic transmissions for mining trucks.
+● Work within multiple large codebases composed of both C and Simulink code on embedded systems communication using J1939.
+● Learn under experienced Application Lead to implement features in current production and new products.
+● Participate in migration from Clearcase to Git & Ivy source control.
+● Application Lead for new Quarry and Construction Trucks projects.
+● Facilitate communication between various testing and development teams located around the world.
+● Create innovative workflows using simulation and software-in-loop testing.
+Education
+B.S. Electrical Engineering Iowa State University 2012
+Software and Tools
+● C++, C, OpenGL, QML, Qt Framework, Qt3D, GTest, gcc, CMake
+● GIT, Perforce
