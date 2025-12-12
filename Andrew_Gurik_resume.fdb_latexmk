@@ -1,16 +1,15 @@
 # Fdb version 4
-["pdflatex"] 1765485463.12366 "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" "Andrew_Gurik_resume.pdf" "Andrew_Gurik_resume" 1765485464.71243 0
-  "Andrew_Gurik_resume.aux" 1765485464 489 00ee4435991599d5430be3975b8ad818 "pdflatex"
-  "Andrew_Gurik_resume.out" 1765485464 312 165302addd9e36a356deb760567ca290 "pdflatex"
-  "Andrew_Gurik_resume.tex" 1765485462 5430 88834784a9e59b46d3d4cf818bc03b65 ""
-  "C:/Users/gurel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765485352 81245 b430549db98beb1d3a03071ea49cab66 ""
+["pdflatex"] 1765503355.45456 "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" "Andrew_Gurik_resume.pdf" "Andrew_Gurik_resume" 1765503356.87035 0
+  "Andrew_Gurik_resume.aux" 1765503356 606 7da0186d23f58e5e960fb6ce1cdcf05a "pdflatex"
+  "Andrew_Gurik_resume.out" 1765503356 458 7158a52fdd9a189a000962db6e1661ad "pdflatex"
+  "Andrew_Gurik_resume.tex" 1765503352 5953 0ef2e5b09466fcf0cf2a5144b8651103 ""
+  "C:/Users/gurel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765487025 81245 b430549db98beb1d3a03071ea49cab66 ""
   "C:/Users/gurel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1765485133 13333512 771f6cd67b8245e3de7e6b35db2f344a ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136765053 1528 abec98dbc43e172678c11b3b9031252a ""
-  "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -147,7 +146,7 @@
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" 1765485462 5430 88834784a9e59b46d3d4cf818bc03b65 ""
+  "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" 1765503352 5953 0ef2e5b09466fcf0cf2a5144b8651103 ""
   (generated)
   "Andrew_Gurik_resume.aux"
   "Andrew_Gurik_resume.log"
