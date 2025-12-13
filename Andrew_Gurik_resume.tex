@@ -13,7 +13,7 @@
 
 % Define forest green color
 \definecolor{forestgreen}{RGB}{34,139,34}
-\definecolor{lightgreen}{RGB}{144,238,144}
+\definecolor{lightgreen}{RGB}{190,255,190}
 \definecolor{darkgray}{RGB}{52,58,64}
 
 % Colors for hyperlinks
@@ -32,6 +32,13 @@
 {}{0em}
 {}[\titlerule]
 \titlespacing*{\section}{0pt}{6pt}{3pt}
+
+% Section heading without underline (rule)
+\newcommand{\sectionnorule}[1]{
+    \vspace{6pt}
+    {\Large\scshape\raggedright\color{forestgreen}#1\par}
+    \vspace{3pt}
+}
 % Custom commands
 \newcommand{\tech}[1]{\textcolor{darkgray}{\textbf{#1}}}
 \newcommand{\skill}[1]{{\small\textcolor{forestgreen}{\textbf{#1}}}}
@@ -88,7 +95,7 @@
 Software Engineer with 12 years of experience in embedded software and controls. Most recently building precision agriculture software systems using modern C++ and Qt frameworks.
 
 % Core Competencies
-\section{Core Competencies}
+\sectionnorule{Core Competencies}
 \begin{tikzpicture}
 \node[rectangle,draw=forestgreen,rounded corners,inner sep=8pt,fill=lightgreen!20,text width=\dimexpr\textwidth-16pt\relax] {
 \begin{tabularx}{\textwidth}{XXX}
