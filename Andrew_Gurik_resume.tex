@@ -3,7 +3,7 @@
 % Packages
 \usepackage[empty]{fullpage}
 \usepackage{hyperref}
-\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
+\usepackage[left=0.5in,top=0.35in,right=0.5in,bottom=0.35in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{xcolor}
@@ -24,37 +24,47 @@
     urlcolor=forestgreen,
 }
 
+\parindent=0pt
+
 % Custom section formatting
 \titleformat{\section}
 {\Large\scshape\raggedright\color{forestgreen}}
 {}{0em}
 {}[\titlerule]
-\titlespacing*{\section}{0pt}{12pt}{8pt}
-
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 % Custom commands
 \newcommand{\tech}[1]{\textcolor{darkgray}{\textbf{#1}}}
 \newcommand{\skill}[1]{{\small\textcolor{forestgreen}{\textbf{#1}}}}
 \newcommand{\employer}[3]{
-    \hspace*{0em}{\large\textcolor{forestgreen}{\textbf{#1}}}
+    \vspace{4pt}
+    {\large\textcolor{forestgreen}{\textbf{#1}}}
     \textbf{—}
-    {\normalsize\textcolor{forestgreen}{\textbf{#2}}}
+    {\normalsize\textcolor{forestgreen}{{#2}}}
     \hfill
-    \textbf{#3}\\[4pt]
+    {#3}
+    \par
 }
 \newcommand{\role}[2]{\hspace{1em}{\large\textcolor{forestgreen}{\textbf{#1}}} \hfill \textit{#2}}
 \newcommand{\noproject}[1]{
-    \hspace*{0em}{\small\textcolor{darkgray}{\textbf{#1}}} \\[12pt]
+    \hspace*{1em}{\small\color{darkgray}#1}
+    \par
 }
 \newcommand{\project}[2]{
-    \hspace*{1em}{\normalsize\textcolor{darkgray}{\textbf{#1}}} \\[2pt] 
-    \hspace*{0em}{\small\textcolor{darkgray}{\textbf{#2}}} \\[12pt]
+    \vspace{4pt}
+    {\normalsize\textcolor{darkgray}{\textbf{#1}}}
+    {\small\color{darkgray}
+    \begin{itemize}[leftmargin=2em,itemsep=0pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+        #2
+    \end{itemize}}
+    \vspace{0pt}
+    \par
 }
 \newcommand{\volunteer}[3]{
-    \hspace*{1em}{\normalsize\textcolor{darkgray}{\textbf{#1}}}
+    \hspace*{1em}{\normalsize\textcolor{darkgray}{#1}}
     \textbf{—}
-    \hspace*{0em}{\small\textcolor{darkgray}{\textbf{#2}}}
+    \hspace*{0em}{\small\textcolor{darkgray}{#2}}
     \hfill
-    \textbf{#3} \\[4pt]
+    #3 \\[4pt]
 }
 
 % Custom bullet points
@@ -65,27 +75,27 @@
 
 % Header
 \begin{center}
-{\Huge \textcolor{forestgreen}{\textbf{Andrew G. Gurik}}}\\[5pt]
-    {\large
+{\huge \textcolor{forestgreen}{\textbf{Andrew G. Gurik}}}\\[3pt]
+    {\normalsize
     \textcolor{forestgreen}
     \faEnvelope\ andrewgurik@gmail.com
     \textcolor{forestgreen} 
     \faPhone\ (309) 868-4405
     \textcolor{forestgreen}
-    \faMapMarker\ Ames, IA}\\[10pt]
+    \faMapMarker\ Ames, IA}\\[3pt]
 \end{center}
 
-Software Engineer with 12 years of experience in embedded software and controls. Most recently delivering precision agriculture software systems using modern C++ and Qt frameworks.
+Software Engineer with 12 years of experience in embedded software and controls. Most recently building precision agriculture software systems using modern C++ and Qt frameworks.
 
 % Core Competencies
 \section{Core Competencies}
 \begin{tikzpicture}
-\node[rectangle,draw=forestgreen,rounded corners,inner sep=10pt,fill=lightgreen!20,text width=\textwidth+20pt] {
+\node[rectangle,draw=forestgreen,rounded corners,inner sep=8pt,fill=lightgreen!20,text width=\dimexpr\textwidth-16pt\relax] {
 \begin{tabularx}{\textwidth}{XXX}
-\skill{C++} & \skill{C} & \skill{GNU/Linux} \\[5pt]
-\skill{Matlab \& Simulink} & \skill{Qt Framework} & \skill{Git} \\[5pt]
-\skill{Embedded Systems} & \skill{Robotics} & \skill{Classical Control Systems} \\[5pt]
-\skill{CAN/J1939/ISOBUS} & \skill{GCC} & \skill{OpenGL} \\[5pt]
+\skill{C++} & \skill{C} & \skill{GNU/Linux} \\[2pt]
+\skill{Matlab \& Simulink} & \skill{Qt Framework} & \skill{Git} \\[2pt]
+\skill{Embedded Systems} & \skill{Robotics} & \skill{Classical Control Systems} \\[2pt]
+\skill{CAN/J1939/ISOBUS} & \skill{GCC} & \skill{OpenGL}
 \end{tabularx}
 };
 \end{tikzpicture}
@@ -94,25 +104,34 @@ Software Engineer with 12 years of experience in embedded software and controls.
 \section{Experience}
 
 % Add some vertical space before first company
-\vspace{2pt}
+\vspace{0pt}
 \employer{Ag Leader Technology}{Staff Software Engineer}{2018 - Present}
-\noproject{Currently implementting agricultureal vehicle automation system using VPI AprilTag Detector on NVIDIA Jetson}
-\project{In-Cab Touchscreen Display -- InCommand Go}{-Lead development of next-generation precision agriculture displays, implementing advanced 3D mapping engine using Qt3D and OpenGL in an embedded Linux environment (i.MX8 QM)\\
-    -Integrate new 3D map engine with legacy codebase while optimizing for graphics performance using available software profiling tools.
-    -Develop custom OpenGL ES shaders for improved rendering performance.
+\noproject{Currently building vision-based vehicle automation using VPI AprilTag Detector on NVIDIA Jetson.}
+\project{In-Cab Touchscreen Display -- InCommand Go}{
+    \item Led development of next-generation precision agriculture displays, implementing a 3D mapping engine using Qt3D and OpenGL in an embedded Linux environment (i.MX8 QM).
+    \item Integrated a new 3D map engine with a legacy codebase while improving graphics performance using profiling and optimization.
+    \item Developed custom OpenGL ES shaders to improve rendering performance and visual quality.
 }
-\project{Liquid Application Control -- L2 \& RightSpot}{-Create proprietary liquid application control system for precision agriculture sprayer.\\
-    -Develop controls for liquid pressure control and flow rate control for servo and pwm valves.\\
-    -Design a CAN protocol to communicate with 3rd party pwm nozzle by nozzle sprayer system and develop controls for nozzle duty-cycle.\\
-    -Design and implement software for integrating with OEM vehicles over j1939 as well as simulators for testing and implementing the vehicle integration.
+\project{Liquid Application Control -- L2 \& RightSpot}{
+    \item Developed a proprietary liquid application control system for precision agriculture sprayers.
+    \item Implemented closed-loop pressure and flow control for servo and PWM valves.
+    \item Designed a CAN protocol to communicate with third-party nozzle-by-nozzle systems and implemented nozzle duty-cycle control.
+    \item Integrated with OEM vehicles over J1939 and built simulators to validate and accelerate vehicle integration.
 }
-\project{High Speed Planting -- SureSpeed}{-Create new high-speed planting system using BLDC motors for seed meter and seed tube and proprietary sensors communicating over j1939.\\
-    -Implement touch based user interface for in-cab display for improved diagnostic features.
+\project{High Speed Planting -- SureSpeed}{
+    \item Developed a high-speed planting system using BLDC motors (seed meter and seed tube) with proprietary sensors communicating over J1939.
+    \item Implemented touch-based in-cab diagnostics to improve troubleshooting and operator workflow.
+    \item Brought up a modified hardware platform (MPC5634) while maintaining compatibility with preexisting systems such as hydraulic downforce.
 }
 \employer{Randstad Technologies}{Software Engineer}{2017 - 2018}
-\project{Caterpillar -- Core Machine Software}{Create desktop ecosystem for running embedded code interfacing with Simulink, C\#, C++, and GTest}
+\project{Caterpillar -- Core Machine Software}{
+    \item Built a desktop harness to run and debug embedded modules on a Windows PC.
+    \item Integrated Simulink models, C\#/C++ tooling, GTest, and a virtual CAN bus.
+}
 \employer{Caterpillar, Inc.}{Software Engineer}{2013 - 2016}
-\project{Drivetrain Systems \& Software - Large Mining Trucks}{Powershift transmission clutch control using C and Simulink}
+\project{Drivetrain Systems \& Software - Large Mining Trucks}{
+    \item Maintained and extended powershift transmission control software in C and Simulink, delivering feature development and bug fixes.
+}
 
 
 % Education Section

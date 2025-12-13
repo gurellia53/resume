@@ -1,0 +1,45 @@
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.brf
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.synctex.gz(busy)
+*.toc
+*.vrb
+*.xdv
+*.xmpdata
+
+# Build directories
+_minted*/
+minted*/
+latex.out/
+build/
+out/
+
+# (Optional) Uncomment if you don't want to version PDFs
+# *.pdf
+
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
