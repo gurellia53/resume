@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1765503355.45456 "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" "Andrew_Gurik_resume.pdf" "Andrew_Gurik_resume" 1765503356.87035 0
-  "Andrew_Gurik_resume.aux" 1765503356 606 7da0186d23f58e5e960fb6ce1cdcf05a "pdflatex"
-  "Andrew_Gurik_resume.out" 1765503356 458 7158a52fdd9a189a000962db6e1661ad "pdflatex"
-  "Andrew_Gurik_resume.tex" 1765503352 5953 0ef2e5b09466fcf0cf2a5144b8651103 ""
+["pdflatex"] 1765606997.86935 "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" "Andrew_Gurik_resume.pdf" "Andrew_Gurik_resume" 1765606999.28586 0
+  "Andrew_Gurik_resume.aux" 1765606999 606 7da0186d23f58e5e960fb6ce1cdcf05a "pdflatex"
+  "Andrew_Gurik_resume.out" 1765606999 458 7158a52fdd9a189a000962db6e1661ad "pdflatex"
+  "Andrew_Gurik_resume.tex" 1765606997 5230 9400072acd3840068d3246097d4c579b ""
   "C:/Users/gurel/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765487025 81245 b430549db98beb1d3a03071ea49cab66 ""
   "C:/Users/gurel/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1765485133 13333512 771f6cd67b8245e3de7e6b35db2f344a ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -20,15 +20,12 @@
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
-  "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/tfm/public/fontawesome/FontAwesome--fontawesometwo.tfm" 1463869852 1360 76c648952c3cfb458d3ca1d9dde7e9bf ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
-  "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb" 1463869852 173219 890b1c7806f4fd8da5584bf52ad6c3d7 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -146,7 +143,7 @@
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/gurel/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" 1765503352 5953 0ef2e5b09466fcf0cf2a5144b8651103 ""
+  "c:/Users/gurel/Documents/boop/Andrew_Gurik_resume.tex" 1765606997 5230 9400072acd3840068d3246097d4c579b ""
   (generated)
   "Andrew_Gurik_resume.aux"
   "Andrew_Gurik_resume.log"

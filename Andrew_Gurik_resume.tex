@@ -3,7 +3,7 @@
 % Packages
 \usepackage[empty]{fullpage}
 \usepackage{hyperref}
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{xcolor}
@@ -34,8 +34,28 @@
 % Custom commands
 \newcommand{\tech}[1]{\textcolor{darkgray}{\textbf{#1}}}
 \newcommand{\skill}[1]{{\small\textcolor{forestgreen}{\textbf{#1}}}}
-\newcommand{\employer}[2]{{\large\textcolor{forestgreen}{\textbf{#1}}} \hfill \textbf{#2}}
+\newcommand{\employer}[3]{
+    \hspace*{0em}{\large\textcolor{forestgreen}{\textbf{#1}}}
+    \textbf{—}
+    {\normalsize\textcolor{forestgreen}{\textbf{#2}}}
+    \hfill
+    \textbf{#3}\\[4pt]
+}
 \newcommand{\role}[2]{\hspace{1em}{\large\textcolor{forestgreen}{\textbf{#1}}} \hfill \textit{#2}}
+\newcommand{\noproject}[1]{
+    \hspace*{0em}{\small\textcolor{darkgray}{\textbf{#1}}} \\[12pt]
+}
+\newcommand{\project}[2]{
+    \hspace*{1em}{\normalsize\textcolor{darkgray}{\textbf{#1}}} \\[2pt] 
+    \hspace*{0em}{\small\textcolor{darkgray}{\textbf{#2}}} \\[12pt]
+}
+\newcommand{\volunteer}[3]{
+    \hspace*{1em}{\normalsize\textcolor{darkgray}{\textbf{#1}}}
+    \textbf{—}
+    \hspace*{0em}{\small\textcolor{darkgray}{\textbf{#2}}}
+    \hfill
+    \textbf{#3} \\[4pt]
+}
 
 % Custom bullet points
 \renewcommand{\labelitemi}{$\bullet$}
@@ -55,23 +75,17 @@
     \faMapMarker\ Ames, IA}\\[10pt]
 \end{center}
 
-Software engineer with 12 years of experience in embedded systems and controls. Most recently delivering precision agriculture software solutions using modern C++ and Qt frameworks.
-
-% Objective
-% \section{Objective}
-% Obtain a job as a software engineer focusing on embedded systems.
+Software Engineer with 12 years of experience in embedded software and controls. Most recently delivering precision agriculture software systems using modern C++ and Qt frameworks.
 
 % Core Competencies
 \section{Core Competencies}
 \begin{tikzpicture}
-\node[rectangle,draw=forestgreen,rounded corners,inner sep=10pt,fill=lightgreen!20,text width=\textwidth] {
+\node[rectangle,draw=forestgreen,rounded corners,inner sep=10pt,fill=lightgreen!20,text width=\textwidth+20pt] {
 \begin{tabularx}{\textwidth}{XXX}
 \skill{C++} & \skill{C} & \skill{GNU/Linux} \\[5pt]
 \skill{Matlab \& Simulink} & \skill{Qt Framework} & \skill{Git} \\[5pt]
-\skill{Embedded Systems} & \skill{Robotics} & \skill{PID Control} \\[5pt]
-\skill{GCC} & \skill{CMake} & \skill{Conan} \\[5pt]
-\skill{Software Design} & \skill{OpenGL} & \skill{Computer Vision} \\[5pt]
-\skill{CAN/J1939/ISOBUS} & \skill{Precision Agriculture} & \skill{ }  \\[5pt]
+\skill{Embedded Systems} & \skill{Robotics} & \skill{Classical Control Systems} \\[5pt]
+\skill{CAN/J1939/ISOBUS} & \skill{GCC} & \skill{OpenGL} \\[5pt]
 \end{tabularx}
 };
 \end{tikzpicture}
@@ -81,67 +95,33 @@ Software engineer with 12 years of experience in embedded systems and controls. 
 
 % Add some vertical space before first company
 \vspace{2pt}
-\employer{Ag Leader Technology}{2018 - present}\\[3pt]
+\employer{Ag Leader Technology}{Staff Software Engineer}{2018 - Present}
+\noproject{Currently implementting agricultureal vehicle automation system using VPI AprilTag Detector on NVIDIA Jetson}
+\project{In-Cab Touchscreen Display -- InCommand Go}{-Lead development of next-generation precision agriculture displays, implementing advanced 3D mapping engine using Qt3D and OpenGL in an embedded Linux environment (i.MX8 QM)\\
+    -Integrate new 3D map engine with legacy codebase while optimizing for graphics performance using available software profiling tools.
+    -Develop custom OpenGL ES shaders for improved rendering performance.
+}
+\project{Liquid Application Control -- L2 \& RightSpot}{-Create proprietary liquid application control system for precision agriculture sprayer.\\
+    -Develop controls for liquid pressure control and flow rate control for servo and pwm valves.\\
+    -Design a CAN protocol to communicate with 3rd party pwm nozzle by nozzle sprayer system and develop controls for nozzle duty-cycle.\\
+    -Design and implement software for integrating with OEM vehicles over j1939 as well as simulators for testing and implementing the vehicle integration.
+}
+\project{High Speed Planting -- SureSpeed}{-Create new high-speed planting system using BLDC motors for seed meter and seed tube and proprietary sensors communicating over j1939.\\
+    -Implement touch based user interface for in-cab display for improved diagnostic features.
+}
+\employer{Randstad Technologies}{Software Engineer}{2017 - 2018}
+\project{Caterpillar -- Core Machine Software}{Create desktop ecosystem for running embedded code interfacing with Simulink, C\#, C++, and GTest}
+\employer{Caterpillar, Inc.}{Software Engineer}{2013 - 2016}
+\project{Drivetrain Systems \& Software - Large Mining Trucks}{Powershift transmission clutch control using C and Simulink}
 
-\role{Staff Software Engineer}{2023 - present}
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Lead development of next-generation precision agriculture displays, implementing advanced \tech{3D geospatial mapping engine} using \tech{Qt3D} and \tech{OpenGL} in an \tech{embedded Linux} environment
-\item Architect and implement automated grain cart alignment system using \tech{computer vision} (\tech{VPI AprilTag}) on \tech{NVIDIA Jetson Orin Nano SOM}
-\item Drive technical direction and mentor team members in modern \tech{C++}, \tech{embedded systems}, and \tech{real-time graphics}
-\end{itemize}
-
-
-\role{Senior Software Engineer}{2021 - 2023}
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Led Scrum team developing precision agriculture software for in-cab displays and \tech{CAN bus} (\tech{J1939}) connected modules
-\item Designed and implemented precision nozzle-control spraying system, including touch UI, \tech{CAN protocol}, \tech{embedded architecture}, and \tech{PID control systems}
-\item Spearheaded next-generation product development, focusing on \tech{real-time performance} and \tech{user experience}
-\end{itemize}
-
-
-\role{Software Engineer}{2018 - 2021}
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Developed software for precision agriculture displays using \tech{Qt/QML} and \tech{C++} with \tech{CAN bus} (\tech{J1939} \& \tech{ISOBUS})
-\item Created high-speed planting system with real-time control and monitoring
-\item Maintained critical systems including planter downforce and ISOBUS dry spreader
-\end{itemize}
-
-\vspace{8pt}
-\employer{Randstad Technologies}{2017 - 2018}\\[3pt]
-
-\role{Software Engineer}{} -- (Caterpillar) Core Machine Software
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Enhanced Virtual Platform ecosystem with \tech{Simulink}, \tech{Python}, \tech{C\#}, and \tech{C++} tooling
-\item Implemented \tech{Google Test} infrastructure for automated testing
-\item Developed cross-application testing framework for machine software validation
-\end{itemize}
-
-\vspace{8pt}
-\employer{Caterpillar, Inc.}{2013 - 2016}\\[3pt]
-\role{Software Engineer}{}\\[2pt]
-\textit{Core Machine Software}
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Developed Windows-based transmission control simulation environment
-\item Designed scalable architecture supporting hundreds of applications across product lines
-\item Integrated virtual \tech{CAN Bus} simulation with comprehensive testing framework
-\end{itemize}
-
-\textit{Drivetrain Systems \& Software - Large Mining Trucks}
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Led development of embedded control systems for hydraulic transmissions
-\item Managed global development teams and implemented \tech{CI/CD} practices
-\item Pioneered simulation and software-in-loop testing methodologies
-\end{itemize}
 
 % Education Section
 \section{Education}
-{\large\textcolor{forestgreen}{\textbf{B.S. Electrical Engineering}}} \hfill Iowa State University, 2012
-
+\employer{Iowa State University}{B.S. Electrical Engineering}{2012}
 % Volunteer Section
 \section{Volunteer Experience}
-{\large\textcolor{forestgreen}{\textbf{FIRST Robotics Competition}}} \hfill FRC Team Neutrino 4H
-\begin{itemize}[leftmargin=*,itemsep=2pt]
-\item Lead and Controls Mentor FRC Team Neutrino 4H 
-\end{itemize}
+\employer{FIRST Robotics Competition}{Mentor}{}
+\volunteer{Team Neutrino 4H}{Lead Mentor (Controls)}{2012, 2020 - Present}
+\volunteer{Robot Casserole}{Mechanical Mentor}{2013 - 2016}
 
 \end{document}
