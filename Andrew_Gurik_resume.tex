@@ -11,10 +11,8 @@
 \usepackage{tabularx}
 \usepackage{tikz}
 
-% Define forest green color
-\definecolor{forestgreen}{RGB}{34,139,34}
-\definecolor{lightgreen}{RGB}{190,255,190}
-\definecolor{darkgray}{RGB}{52,58,64}
+% Shared colors + header
+\input{andrew_shared_header.tex}
 
 % Colors for hyperlinks
 \hypersetup{
@@ -45,7 +43,7 @@
 \newcommand{\employer}[3]{
     \vspace{8pt}
     {\large\textcolor{forestgreen}{\textbf{#1}}}
-    {\normalsize\textcolor{forestgreen}{—}}
+    {\normalsize\textcolor{forestgreen}{\textemdash}}
     {\normalsize\textcolor{forestgreen}{{#2}}}
     \hfill
     {\normalsize\normalfont\mdseries\textcolor{forestgreen}{#3}}
@@ -82,14 +80,7 @@
 \begin{document}
 
 % Header
-\begin{center}
-{\huge \textcolor{forestgreen}{\textbf{Andrew Gurik}}}\\[3pt]
-    {\normalsize
-    \textcolor{forestgreen} \faEnvelope\ andrewgurik@gmail.com
-    \textcolor{forestgreen} \faGithub\ \href{https://github.com/gurellia53/resume}{\textcolor{darkgray}{github.com/gurellia53}}
-    \textcolor{forestgreen} \faPhone\ (309) 868-4405
-    \textcolor{forestgreen} \faMapMarker\ Ames, IA}\\[3pt]
-\end{center}
+\AndrewHeader{\huge}{0pt}
 
 Software Engineer with 12 years of experience in embedded software and controls. Most recently building precision agriculture software systems using modern C++ and Qt frameworks.
 
