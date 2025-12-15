@@ -1,0 +1,55 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Packages
+\usepackage[empty]{fullpage}
+\usepackage{hyperref}
+\usepackage[left=0.75in,top=0.75in,right=0.75in,bottom=0.75in]{geometry}
+\usepackage{xcolor}
+\usepackage{fontawesome}
+
+% Shared colors + header
+\input{andrew_shared_header.tex}
+
+% Hyperlink style
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkgray,
+    filecolor=darkgray,
+    urlcolor=darkgray,
+}
+
+\parindent=0pt
+\setlength{\parskip}{8pt}
+
+\begin{document}
+
+% Header
+\AndrewHeader{\LARGE}{12pt}
+
+% Date
+\textcolor{darkgray}{\today}
+
+% Recipient block (edit per application)
+\textcolor{darkgray}{
+Hiring Manager\\
+\mbox{[Company Name]}\\
+\mbox{[Company Address Line 1]}\\
+\mbox{[City, State ZIP]}
+}
+
+\vspace{8pt}
+
+Dear Hiring Manager,
+
+I'm applying for the [Role Title] position at [Company Name]. I'm a software engineer with 12 years of experience in embedded software and controls, most recently building precision agriculture systems in modern C++ and Qt on embedded Linux.
+
+In my current role at Ag Leader Technology, I've led development of in-cab touchscreen software including a 3D mapping engine (Qt3D/OpenGL), performance profiling and optimization, and low-level graphics work with custom OpenGL ES shaders. I also build closed-loop control features for precision sprayers, including pressure/flow control and CAN-based integration with third-party nozzle-by-nozzle systems and OEM vehicles over J1939.
+
+I'm particularly interested in [Company Name] because [one sentence about the product/mission/team]. I'd love to bring a mix of hands-on embedded development, systems integration, and practical controls experience to help ship reliable features in real-world equipment.
+
+Thank you for your time and consideration. I'd welcome the chance to discuss how my background fits your needs.
+
+Sincerely,\\
+\textcolor{darkgray}{Andrew Gurik}
+
+\end{document}

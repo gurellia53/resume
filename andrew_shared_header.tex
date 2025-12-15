@@ -1,0 +1,21 @@
+% Shared header + colors for resume/cover letter
+% Usage: \input{andrew_shared_header.tex} after loading xcolor/fontawesome/hyperref
+% Then call \AndrewHeader{<Name size command>}{<vertical space after header>}
+
+% Colors
+\definecolor{forestgreen}{RGB}{34,139,34}
+\definecolor{lightgreen}{RGB}{190,255,190}
+\definecolor{darkgray}{RGB}{52,58,64}
+
+% Header macro
+\newcommand{\AndrewHeader}[2]{
+\begin{center}
+{#1 \textcolor{forestgreen}{\textbf{Andrew Gurik}}}\\[3pt]
+    {\normalsize
+    	\textcolor{forestgreen} \faEnvelope\ andrewgurik@gmail.com \hspace{10pt}
+    	\textcolor{forestgreen} \faGithub\ \href{https://github.com/gurellia53/resume}{\textcolor{darkgray}{github.com/gurellia53}} \hspace{10pt}
+    	\textcolor{forestgreen} \faPhone\ (309) 868-4405 \hspace{10pt}
+    \textcolor{forestgreen} \faMapMarker\ Ames, IA}\\[3pt]
+\end{center}
+\vspace{#2}
+}
